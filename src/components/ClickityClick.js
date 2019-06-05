@@ -31,7 +31,7 @@ export default class ClickityClick extends React.Component {
   }
 
   render() { //render is kind of a lifecycle method which is invoked whenever the component needs to update
-    return ( //what is rendered, what us actually output
+    return ( //what is rendered, what is the actual output
       <div>
         <p>I have {this.state.status.hasBeenClicked ? null : 'not'} been clicked!</p>
         <button onClick={this.handleClick}>Click me!</button>
